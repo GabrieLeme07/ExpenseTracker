@@ -1,7 +1,7 @@
 ﻿@model ExpenseTracker.Models.Transaction
 
 @{
-    ViewData["PageTitle"] = Model.TransactionId == 0 ? "Create a new transaction" : "Edit transaction";
+    ViewData["PageTitle"] = Model.TransactionId == default ? "Create a new transaction" : "Edit transaction";
 }
 
 <div class="row">
